@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+ul {
+    margin-top: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #ecf0f1;
+}
+.enllacos a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #0077cc;
+    text-decoration: none;
+}
+.enllacos a:hover {
+    text-decoration: underline;
+}
+.curiositat {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eef;
+    border-left: 4px solid #339;
+}
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #339;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #226;
+}
