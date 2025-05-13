@@ -1,7 +1,7 @@
 // Mostrar/amagar la comparativa
 document.getElementById('toggleComparativa').addEventListener('click', () => {
     const comparativa = document.getElementById('comparativa');
-    if (comparativa.style.display === 'none' || comparativa.style.display === '') {
+    if (comparativa.style.display == 'none' || comparativa.style.display == '') {
         comparativa.style.display = 'block';
     } else {
         comparativa.style.display = 'none';
