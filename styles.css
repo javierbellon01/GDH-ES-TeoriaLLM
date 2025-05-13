@@ -51,3 +51,48 @@ button {
 button:hover {
     background-color: #226;
 }
+
+/* 🌙 Modo oscuro (cuando <body class="dark-theme">) */
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-theme h1,
+body.dark-theme h2 {
+    color: #f1f1f1;
+}
+
+body.dark-theme table {
+    background-color: #2c2c2c;
+}
+
+body.dark-theme th {
+    background-color: #3a3a3a;
+    color: #f1f1f1;
+}
+
+body.dark-theme td {
+    border-color: #555;
+}
+
+body.dark-theme .enllacos a {
+    color: #66aaff;
+}
+
+body.dark-theme .curiositat {
+    background-color: #334;
+    border-left-color: #66f;
+    color: #dde;
+}
+
+body.dark-theme button {
+    background-color: #555;
+    color: #fff;
+}
+
+body.dark-theme button:hover {
+    background-color: #777;
+}
+
+
