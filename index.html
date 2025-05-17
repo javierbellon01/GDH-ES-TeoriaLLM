@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Què és un LLM?</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Què és un LLM?</title>
+    <script src="js/app.js"></script>
 </head>
+
 <body>
 
-  <h1>Què és un LLM?</h1>
+    <h1>Què és un LLM?</h1>
 
-  <h2>1. Explicació bàsica</h2>
-  <p>Un LLM (Large Language Model) és un model d’intel·ligència artificial entrenat amb grans quantitats de text per entendre i generar llenguatge humà de forma coherent.</p>
-  <p>Els LLM poden comprendre preguntes, traduir idiomes, generar textos, escriure codi i molt més.</p>
+    <h2>1. Explicació bàsica</h2>
+    <p>Un LLM (Large Language Model) és un model d’intel·ligència artificial entrenat amb grans quantitats de text per entendre i generar llenguatge humà de forma coherent.</p>
+    <p>Els LLM poden comprendre preguntes, traduir idiomes, generar textos, escriure codi i molt més.</p>
 
-  <h3>Casos d’ús habituals:</h3>
-  <ul>
-    <li>Assistents virtuals i xatbots</li>
-    <li>Generació de textos creatius</li>
-    <li>Traducció automàtica</li>
-    <li>Resum de documents</li>
-    <li>Ajuda en programació i depuració de codi</li>
-  </ul>
+    <h3>Casos d’ús habituals:</h3>
+    <ul>
+        <li>Assistents virtuals i xatbots</li>
+        <li>Generació de textos creatius</li>
+        <li>Traducció automàtica</li>
+        <li>Resum de documents</li>
+        <li>Ajuda en programació i depuració de codi</li>
+    </ul>
 
-  <h2>2. Taula comparativa de models</h2>
-  <table id="comparativa">
-    <tr>
-      <th>Model</th>
-      <th>Empresa</th>
-      <th>Característiques destacades</th>
-    </tr>
-    <tr>
-      <td>GPT-4</td>
-      <td>OpenAI</td>
-      <td>Alt rendiment multimodal, capacitat avançada de raonament</td>
-    </tr>
-    <tr>
-      <td>Claude</td>
-      <td>Anthropic</td>
-      <td>Focalitzat en la seguretat i l’ètica</td>
-    </tr>
-    <tr>
-      <td>Gemini</td>
-      <td>Google DeepMind</td>
-      <td>Integració amb serveis de Google, multimodalitat</td>
-    </tr>
-    <tr>
-      <td>LLaMA</td>
-      <td>Meta</td>
-      <td>Model obert i optimitzat per a recerca</td>
-    </tr>
-  </table>
+    <h2>2. Taula comparativa de models</h2>
+    <table id="comparativa">
+        <tr>
+            <th>Model</th>
+            <th>Empresa</th>
+            <th>Característiques destacades</th>
+        </tr>
+        <tr>
+            <td>GPT-4</td>
+            <td>OpenAI</td>
+            <td>Alt rendiment multimodal, capacitat avançada de raonament</td>
+        </tr>
+        <tr>
+            <td>Claude</td>
+            <td>Anthropic</td>
+            <td>Focalitzat en la seguretat i l’ètica</td>
+        </tr>
+        <tr>
+            <td>Gemini</td>
+            <td>Google DeepMind</td>
+            <td>Integració amb serveis de Google, multimodalitat</td>
+        </tr>
+        <tr>
+            <td>LLaMA</td>
+            <td>Meta</td>
+            <td>Model obert i optimitzat per a recerca</td>
+        </tr>
+    </table>
 
-  <h2>3. Enllaços a plataformes</h2>
-  <div class="enllacos">
-    <a href="https://openai.com" target="_blank">OpenAI</a>
-    <a href="https://poe.com" target="_blank">Poe</a>
-    <a href="https://huggingface.co" target="_blank">Hugging Face</a>
-  </div>
+    <h2>3. Enllaços a plataformes</h2>
+    <div class="enllacos">
+        <a href="https://openai.com" target="_blank">OpenAI</a>
+        <a href="https://poe.com" target="_blank">Poe</a>
+        <a href="https://huggingface.co" target="_blank">Hugging Face</a>
+    </div>
 
-  <h2>4. Riscos ètics</h2>
-  <ul>
-    <li>Desinformació: poden generar contingut fals amb aparença creïble</li>
-    <li>Biaixos: reflecteixen prejudicis del conjunt de dades d'entrenament</li>
-    <li>Privacitat: risc de filtració d'informació confidencial si no es controlen</li>
-  </ul>
+    <h2>4. Riscos ètics</h2>
+    <ul>
+        <li>Desinformació: poden generar contingut fals amb aparença creïble</li>
+        <li>Biaixos: reflecteixen prejudicis del conjunt de dades d'entrenament</li>
+        <li>Privacitat: risc de filtració d'informació confidencial si no es controlen</li>
+    </ul>
 
-  <h2>5. Curiositats interactives</h2>
-  <div class="curiositat">
-    <p><strong>Sabies que...</strong> Un LLM pot escriure poesia en l’estil de Shakespeare?</p>
-    <button id="toggleComparativa">
-
-    </button>
-    <button id="alertButton">
-
-    </button>
-    <button id="changeTheme">
-      
-    </button>
+    <h2>5. Curiositats interactives</h2>
+    <div class="curiositat">
+        <p><strong>Sabies que...</strong> Un LLM pot escriure poesia en l’estil de Shakespeare?</p>
+        <button id="toggleComparativa"></button>
+        <button id="alertButton"></button>
+        <button id="changeTheme"></button>
